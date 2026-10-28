@@ -1,0 +1,10 @@
+raw/
+*.zip
+node_modules/
+.wrangler/
+.dev.vars
+*.env
+.env*
+screenshots/
+screenshot_mobile.png
+__pycache__/

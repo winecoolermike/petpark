@@ -1,0 +1,825 @@
+[
+ {
+  "park_id": "ridb:10305353",
+  "name": "Badgers Den At Camp Richardson Resort",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "RIDB campsite attribute 'Pets Allowed': No=84 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305353",
+    "source_updated": "2026-08-24",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "This is not a pet-friendly resort.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305353",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:10305438",
+  "name": "Eagles Nest At Camp Richardson Resort",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "RIDB campsite attribute 'Pets Allowed': No=31 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305438",
+    "source_updated": "2025-12-04",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "This is not a pet-friendly resort.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305438",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:10305470",
+  "name": "Rv Village Campground At Camp Richardson Resort",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "RIDB campsite attribute 'Pets Allowed': No=98 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305470",
+    "source_updated": "2025-12-04",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "This is not a pet-friendly resort.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/10305470",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:232464",
+  "name": "Kalaloch",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=168 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232464",
+    "source_updated": "2026-01-12",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are allowed in developed areas such as the campground, picnic areas, roads, and parking lots, and are required to be on-leash (up to 6 feet) and attached to a human at all times.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232464",
+    "source_updated": "2026-05-23",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are allowed on Kalaloch Beaches from South Beach Campground to Ruby Beach.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232464",
+    "source_updated": "2026-05-23",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not permitted on the Kalaloch Nature Trail.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232464",
+    "source_updated": "2026-05-23",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:232489",
+  "name": "North Rim Campground (Az)",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=76 sites, Pets Allowed=48 sites, =1 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232489",
+    "source_updated": "2026-10-14",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "The Transept Trail (foot only, no dogs allowed) is a great alternate route to the Grand Canyon Lodge and Visitor Center as it hugs the canyon rim and offers spectacular views.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232489",
+    "source_updated": "2026-06-03",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:232788",
+  "name": "Link Creek",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=31 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232788",
+    "source_updated": "2025-12-05",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "While the campsites are pet-friendly, unfortunately pets are not permitted within the yurts.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/232788",
+    "source_updated": "2026-06-05",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:233381",
+  "name": "Circle X Ranch Group Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=1 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/233381",
+    "source_updated": "2025-12-04",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "The last 1/8 mile is through an unimproved streambed and dogs are not allowed.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/233381",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:234345",
+  "name": "Star Meadows Guard Station",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=1 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234345",
+    "source_updated": "2025-12-03",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Dogs are allowed.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234345",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "No pets are allowed on the furniture and cleaning up after them is required.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234345",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:234704",
+  "name": "Fort Pickens Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=201 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234704",
+    "source_updated": "2026-04-04",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are NOT allowed on ferries, piers, in forts, batteries, pavilions, or inside any of the facilities.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234704",
+    "source_updated": "2026-08-30",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not allowed on any beach within Gulf Islands National Seashore.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234704",
+    "source_updated": "2026-08-30",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not allowed on the beach, ferries, piers, in forts, batteries, pavilions, or inside any of the facilities.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234704",
+    "source_updated": "2026-08-30",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are NOT allowed on beaches, ferries, piers, in forts, batteries, pavilions, or inside any of the facilities.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/234704",
+    "source_updated": "2026-08-30",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:239846",
+  "name": "Palisades Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "* Please be advised that dogs are allowed on Willow Creek year-round, but the Palisades Trail (#109), which intersects with the Willow Creek Trail a short distance up the trail, has restrictions on dogs.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/239846",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Due to wintering moose habitat, dogs are not allowed on the Palisades Trail between Dec.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/239846",
+    "source_updated": "2026-02-25",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:247592",
+  "name": "Hoh Rainforest Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=89 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/247592",
+    "source_updated": "2025-12-03",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "gov/permits/4098362 Pets are not allowed on trails in the Hoh Rain Forest .",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/247592",
+    "source_updated": "2026-03-11",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are allowed on leash in developed areas such as the campground, picnic areas, and parking lots.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/247592",
+    "source_updated": "2026-03-11",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:251579",
+  "name": "Summit Springs Guard Station",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=1 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/251579",
+    "source_updated": "2025-12-03",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not allowed in the cabin or bunkhouse.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/251579",
+    "source_updated": "2026-06-17",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:273781",
+  "name": "Lake Russell Recreation Area",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=42 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273781",
+    "source_updated": "2025-12-03",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "No dogs on the beach please, and no shore fishing within the swim area boundary.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273781",
+    "source_updated": "2026-09-09",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:273833",
+  "name": "Mccabe Flat Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=1 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273833",
+    "source_updated": "2026-09-13",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "No dogs are allowed on the beach or swimming area!",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273833",
+    "source_updated": "2026-07-19",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Dogs are allowed on leash at all other locations managed by BLM in the region.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273833",
+    "source_updated": "2026-07-19",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "\u2022 McCabe Flat Campground has a designated swimming area\u2014NO DOGS ALLOWED.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273833",
+    "source_updated": "2026-07-19",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "ridb:273838",
+  "name": "Willow Placer Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "RIDB campsite attribute 'Pets Allowed': Yes=8 sites",
+    "source": "RIDB bulk export",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273838",
+    "source_updated": "2026-09-13",
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "\u2022 McCabe Flat Campground has a designated swimming area\u2014NO DOGS ALLOWED.",
+    "source": "RIDB facility description",
+    "source_url": "https://www.recreation.gov/camping/campgrounds/273838",
+    "source_updated": "2026-07-19",
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:B491535B-8883-4684-8E34-228E49D01A5C",
+  "name": "White River Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not permitted in amphitheaters, buildings, on trails or in vegetated areas.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted only in parking lots and roads open to vehicles and within the designated campsite.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:EE30401B-4172-4BBA-91AE-B63EAE532367",
+  "name": "Ohanapecosh Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not permitted in amphitheaters, buildings, on trails or in vegetated areas.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.45
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted only in parking lots and roads open to vehicles and within the designated campsite.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "OSM tag dog=no",
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/way/890255285",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "api",
+    "confidence": 0.29
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:EAA2FD98-4F5D-4533-B65A-A11F73AA4494",
+  "name": "Indian Well Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Maximum 8 persons per site, 2 vehicles or 3 motorcycles Maximum stay is 14 consecutive days in a 30-day period Pets are permitted in the campground but must be on a leash no longer than 6 feet (1.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/labe/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "8 m) Pets are not permitted in caves, trails or in buildings.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/labe/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:9D67A3A2-CFAB-45A1-8E9E-5A19DE56137F",
+  "name": "Cougar Rock Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not permitted in amphitheaters, buildings, on trails or in vegetated areas.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted only in parking lots and roads open to vehicles and within the designated campsite.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/mora/planyourvisit/campgrounds.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:127199AC-A753-4B49-B3FF-1F8484B61CBE",
+  "name": "Chisos Basin Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted in the campground, but must be leashed at all times.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are NOT allowed on trails.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:2940AF6F-D2F2-4AEE-91E3-1D0DDDA7B84B",
+  "name": "Rio Grande Village Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted in the campground, but must be leashed at all times.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are NOT allowed on trails, in the backcountry, or on the river.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:D7143083-B16F-45C0-8493-E717CEDA7C3B",
+  "name": "Cottonwood Campground",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets are permitted in the campground, but must be leashed at all times.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are NOT allowed on trails.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ },
+ {
+  "park_id": "nps:6134A1E6-4A8B-473E-9FA5-7DAEEAA3FD14",
+  "name": "Rio Grande Village RV",
+  "field": "pets_allowed",
+  "kind": "contradiction",
+  "facts": [
+   {
+    "field": "pets_allowed",
+    "value": true,
+    "quote": "Pets allowed on property but must remain on a leash at all times.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   },
+   {
+    "field": "pets_allowed",
+    "value": false,
+    "quote": "Pets are not allowed on any park trails, the backcountry, or on the river.",
+    "source": "NPS campground regulations/description",
+    "source_url": "https://www.nps.gov/bibe/planyourvisit/campground_rules.htm",
+    "source_updated": null,
+    "retrieved": "2026-10-16",
+    "extractor": "regex",
+    "confidence": 0.39
+   }
+  ],
+  "status": "open"
+ }
+]

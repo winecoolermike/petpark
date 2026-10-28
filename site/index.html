@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PetPark – pet-friendly RV parks & campgrounds</title>
+<style>
+:root{--g:#1d7a46;--y:#b7791f;--r:#b42318;--mut:#667}
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 system-ui,sans-serif;background:#f4f6f5;color:#1a1d1c}
+header{background:var(--g);color:#fff;padding:12px 14px;position:sticky;top:0;z-index:2}
+h1{font-size:18px;margin:0 0 8px}form{display:flex;gap:6px}input[type=search]{flex:1;padding:10px;border:0;border-radius:8px;font-size:16px}
+button{padding:10px 12px;border:0;border-radius:8px;background:#fff;color:var(--g);font-weight:600;font-size:14px}
+.f{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px}.f label{white-space:nowrap;background:#ffffff26;padding:5px 9px;border-radius:99px;font-size:13px}
+.f select{border-radius:6px;border:0;font-size:13px}
+#st{padding:8px 14px;color:var(--mut);font-size:13px}main{padding:0 10px 30px}
+.c{background:#fff;border-radius:12px;padding:12px;margin:0 0 10px;box-shadow:0 1px 2px #0001}
+.c h2{font-size:16px;margin:0}.sub{color:var(--mut);font-size:12px;margin:2px 0 8px}
+.row{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0}.chip{font-size:12px;padding:3px 8px;border-radius:99px;background:#eef}
+.yes{background:#dcf3e5}.no{background:#fde2e0}.unk{background:#eee;color:#555}
+.fact{border-left:3px solid var(--g);padding:4px 8px;margin:6px 0;font-size:13px;background:#fafcfb}
+.inf{border-left:3px dashed var(--y);padding:4px 8px;margin:6px 0;font-size:13px;background:#fffaf0}
+.b{font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px;color:#fff}.v{background:var(--g)}.l{background:var(--y)}.u{background:#888}
+q{font-style:italic;color:#333}a{color:var(--g)}small{color:var(--mut)}.held{outline:2px solid var(--r)}
+footer{font-size:11px;color:var(--mut);padding:10px 14px}
+</style></head><body>
+<header><h1>🐾 PetPark</h1>
+<form id="q"><input type="search" id="loc" placeholder="City, ZIP, or lat,lon" aria-label="Location"><button>Go</button><button type="button" id="me">📍 Near me</button></form>
+<div class="f">
+<label><input type="checkbox" id="fPets"> Pets allowed (fact)</label>
+<label><input type="checkbox" id="fKnown"> Has pet info</label>
+<label><input type="checkbox" id="fLeash"> Leash rule known</label>
+<label><input type="checkbox" id="fDog"> Dog park/off-leash</label>
+<label><input type="checkbox" id="fVet"> Vet ≤ 25 km</label>
+<label>Radius <select id="rad"><option>25</option><option selected>50</option><option>100</option><option>200</option></select> km</label>
+</div></header>
+<div id="st">Search a place or tap “Near me”.</div><main id="out"></main>
+<footer>Facts show the source quote (solid bar). Inferences are dashed and labeled. Policies change; confirm with the park before you go. Data: Recreation.gov RIDB, NPS, © OpenStreetMap contributors (ODbL). Geocoding: Nominatim. <a href="owner.html">Park owner? Confirm your pet policy</a>.</footer>
+<script src="config.js"></script><script src="app.js"></script></body></html>

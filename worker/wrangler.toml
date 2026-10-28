@@ -1,0 +1,17 @@
+# NOT DEPLOYED. Free tier only. Fill database_id after `wrangler d1 create petpark` (free).
+name = "petpark"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+[assets]
+directory = "../site"
+binding = "ASSETS"
+[triggers]
+crons = ["0 9 1 * *"]
+[[d1_databases]]
+binding = "DB"
+database_name = "petpark"
+database_id = "REPLACE_ME"
+[vars]
+USER_AGENT = "PetParkBot/0.1 (+https://petpark.pages.dev/about)"
+RATE_MAX = "5"
+# Secrets (wrangler secret put): ADMIN_PASSWORD, TURNSTILE_SECRET, IP_SALT

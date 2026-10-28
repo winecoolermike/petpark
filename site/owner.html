@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Confirm your pet policy · PetPark</title><link rel="stylesheet" href="forms.css"></head><body>
+<header><h1><a href="./">🐾 PetPark</a> · Confirm your pet policy</h1></header><main><div class="card">
+<p class="hint">For park owners and managers. A reviewer checks every submission against your website before anything is published.</p>
+<form data-endpoint="/api/owner-submissions">
+<input type="hidden" id="park_id" name="park_id">
+<label>Park name<input id="park_name" name="park_name" required maxlength="200"></label>
+<label>Pets allowed?<select name="pets_allowed" required><option value="">Choose…</option><option value="yes">Yes</option><option value="some_sites">Some sites only</option><option value="no">No</option></select></label>
+<label>Breed restrictions <span class="hint">(leave blank if none)</span><input name="breed_restrictions" maxlength="300" placeholder="e.g. no pit bulls, rottweilers"></label>
+<div class="row"><label>Size/weight limit<input name="size_limit" maxlength="100" placeholder="e.g. 50 lb"></label>
+<label>Max pets per site<input name="max_pets" type="number" min="0" max="20"></label></div>
+<label>Pet fee<input name="pet_fee" maxlength="100" placeholder="e.g. $5/night per pet, or none"></label>
+<label>Off-leash area / dog park?<select name="off_leash_area"><option value="">Not sure</option><option value="yes">Yes</option><option value="no">No</option></select></label>
+<label>Leash rule<input name="leash_rule" maxlength="150" placeholder="e.g. 6 ft leash at all times"></label>
+<label>Contact email <span class="hint">(for verification only, never shown)</span><input name="contact_email" type="email" required maxlength="200"></label>
+<label>Website page showing this policy<input name="website_url" type="url" required maxlength="500" placeholder="https://"></label>
+<div class="hp" aria-hidden="true"><label>Leave empty<input name="company_fax" tabindex="-1" autocomplete="off"></label></div>
+<p class="hint" id="privacy"><b>Privacy:</b> we use what you send only to check and update pet-policy info. Your email is never shown publicly or sold. Approved policy details (not your email) are published with the date. Ask us to delete a submission by opening an issue on the project repo.</p>
+<div id="static" class="note" hidden></div><div id="ts"></div><button>Submit for review</button><div id="msg" role="status"></div>
+</form></div></main><script src="config.js"></script><script src="forms.js"></script></body></html>
