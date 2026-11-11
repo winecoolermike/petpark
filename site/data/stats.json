@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16",
+ "built": "2026-11-11",
  "parks": 37326,
  "ridb": 5260,
  "nps": 662,
@@ -8,8 +8,8 @@
  "osm_merged_into_gov": 3079,
  "vets": 10313,
  "dog_parks": 8861,
- "with_pet_facts": 4162,
- "unknown": 33164,
+ "with_pet_facts": 4163,
+ "unknown": 33163,
  "with_vet_40km": 26753,
  "held": 23,
  "review_queue": 23,
@@ -17,8 +17,8 @@
   "contradiction": 23
  },
  "facts_by_field": {
-  "pets_allowed": 4230,
-  "leash_rule": 665,
+  "pets_allowed": 4229,
+  "leash_rule": 667,
   "off_leash_area": 28,
   "max_pets": 5
  },
