@@ -1,23 +1,23 @@
 {
- "built": "2026-11-11",
+ "built": "2026-11-25",
  "parks": 37326,
- "ridb": 5260,
+ "ridb": 5265,
  "nps": 662,
- "osm_only": 31404,
+ "osm_only": 31399,
  "osm_campsites_raw": 34483,
- "osm_merged_into_gov": 3079,
+ "osm_merged_into_gov": 3084,
  "vets": 10313,
  "dog_parks": 8861,
- "with_pet_facts": 4163,
- "unknown": 33163,
- "with_vet_40km": 26753,
+ "with_pet_facts": 4164,
+ "unknown": 33162,
+ "with_vet_40km": 26752,
  "held": 23,
  "review_queue": 23,
  "review_by_kind": {
   "contradiction": 23
  },
  "facts_by_field": {
-  "pets_allowed": 4229,
+  "pets_allowed": 4230,
   "leash_rule": 667,
   "off_leash_area": 28,
   "max_pets": 5
